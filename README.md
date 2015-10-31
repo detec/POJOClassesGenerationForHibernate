@@ -1,6 +1,6 @@
 # POJO classes generation for Hibernate ORM in 1C 8.3 #
 
-This is a mirror of my 1C 8.3 project, originally published at Infostart < http://infostart.ru/public/359102/ >
+This is a mirror of my 1C 8.3 project, originally published at Infostart <http://infostart.ru/public/359102/>
 
 ## Description ##
 
@@ -10,7 +10,7 @@ This tool is a 1C:Enterprise implementation of Hibernate Reverse Engineering for
 
 This small open-source tool will be of a great assistance to you in following cases:
 
-- you are familiar with 1C:Enterprise RAD platform  < http://1c-dn.com/ > ;
+- you are familiar with 1C:Enterprise RAD platform  <http://1c-dn.com/> ;
 - you want to create a new Java enterprise project with Hibernate ORM framework;
 - you don't have a designed database schema in Oracle, MS SQL, Postgres etc.;
 - you want to create business entities, stored in database tables, quickly, without spending much time on consistency tasks such as primary keys and so on;
@@ -27,6 +27,6 @@ This small open-source tool will be of a great assistance to you in following ca
 
 ## System requirements ##
 
-- 1C:Enterprise full client installation from version 8.3.6 or higher. You can use a free Trainee version to design database structure < https://1c-dn.com/user/updates/1c_enterprise_platform_training_version/ >.
+- 1C:Enterprise full client installation from version 8.3.6 or higher. You can use a free Trainee version to design database structure <https://1c-dn.com/user/updates/1c_enterprise_platform_training_version/>.
 - Hibernate ORM framework version 4.3.x dependency in your Java project. Other versions were not tested.
 - Bing Translator API key, it is subscription fee free up to 2 mln. of translated symbols per month per key. 
