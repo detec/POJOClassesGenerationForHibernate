@@ -4,7 +4,7 @@ This is a mirror of my 1C 8.3 project, originally published at Infostart <http:/
 
 ## Description ##
 
-This tool is a 1C:Enterprise implementation of Hibernate Reverse Engineering for Netbeans, Hibernate Reverse Engineering standalone and other IDE or standalone tools that generate classes for Hibernate based on existing database schema. It generates entity classes with hibernate annotations from 1C 8.3 database where this tool is launched. Additionally it generates mapping class strings for hibernate.cfg.xml.
+This tool is a 1C:Enterprise implementation of Hibernate Reverse Engineering for Netbeans, Hibernate Reverse Engineering standalone and other IDE or standalone tools that generate classes for Hibernate based on existing database schema. It generates entity classes with Hibernate annotations from 1C 8.3 database where this tool is launched. Additionally it generates mapping class strings for hibernate.cfg.xml.
 
 ## Target audience ##
 
@@ -19,7 +19,7 @@ This small open-source tool will be of a great assistance to you in following ca
 
 ## Features and limitations of current version ##
 
-- Hard-coded Russian-to-English translation direction (string "from=ru&to=en" in the source code). Therefore, after consulting to Bing Translator API site, you can replace the languages used up to your needs. Also you can use English names in fields that will be processed by Bing without translation.
+- Hard-coded Russian-to-English translation direction (string "from=ru&to=en" in the source code). Therefore, after consulting to Bing Translator API site, you can replace the languages used up to your needs in the source code in 1C Designer. Also you can use English names in fields that will be processed by Bing without translation.
 - You can convert  entities in following 1C:Enterprise metadata types: references, enumerations, periodic and non-periodic tables. References with pre-defined elements are treated as enumerations.
 - Documents and composite type fields are not supported.
 - Object codes, 1C built-in readable identifiers, are converted to Hibernate Id-fields with primitive type long.
