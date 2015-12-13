@@ -23,6 +23,7 @@ This small open-source tool will be of a great assistance to you in following ca
 - You can convert  entities in following 1C:Enterprise metadata types: references, enumerations, periodic and non-periodic tables. References with pre-defined elements are treated as enumerations.
 - Documents and composite type fields are not supported.
 - Object codes, 1C built-in readable identifiers, are converted to Hibernate Id-fields with primitive type long.
+- There is an option to include Jackson annotations to fields for JSON serialization: @JsonProperty, @JsonManagedReference, @JsonBackReference.
 
 
 ## System requirements ##
